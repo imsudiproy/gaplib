@@ -1,4 +1,4 @@
-FROM    localhost/runner:almalinux
+FROM    runner:ubuntu
 
 ARG     REPO TOKEN
 
