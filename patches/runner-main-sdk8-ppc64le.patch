@@ -370,4 +370,4 @@ index 056a312e..3f9a3679 100644
          <Exec Command="%22$(DesktopMSBuild)%22 Runner.Service/Windows/RunnerService.csproj /p:Configuration=$(BUILDCONFIG) /p:PackageRuntime=$(PackageRuntime) /p:OutputPath=%22$(MSBuildProjectDirectory)/../_layout/bin%22" ConsoleToMSBuild="true" Condition="'$(PackageRuntime)' == 'win-x64' Or '$(PackageRuntime)' == 'win-x86' Or '$(PackageRuntime)' == 'win-arm64'" />
      </Target>
  
-# From upstream commit: 5f1efec208c0726ab8d242d513317c22aa74327f
+# From upstream commit: 8b65f5f9df6fd04c493f9350d90eba55eb53005f
