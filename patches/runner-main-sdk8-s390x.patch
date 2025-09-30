@@ -16,7 +16,7 @@ index 9c069b12..d26b0dc2 100644
    <!-- Set TRACE/DEBUG vars -->
    <PropertyGroup>
 diff --git a/src/Misc/externals.sh b/src/Misc/externals.sh
-index 29e83c85..880bf624 100755
+index 9a0c55ca..d5aff0f6 100755
 --- a/src/Misc/externals.sh
 +++ b/src/Misc/externals.sh
 @@ -187,3 +187,11 @@ fi
@@ -210,7 +210,7 @@ index 4470920e..18774d75 100644
      <NoWarn>NU1701;NU1603;SYSLIB0050;SYSLIB0051</NoWarn>
      <Version>$(Version)</Version>
 diff --git a/src/Sdk/Sdk.csproj b/src/Sdk/Sdk.csproj
-index 3f6766e7..b34c1c36 100644
+index 53ee32e8..6703d892 100644
 --- a/src/Sdk/Sdk.csproj
 +++ b/src/Sdk/Sdk.csproj
 @@ -4,7 +4,10 @@
@@ -370,4 +370,4 @@ index 056a312e..3f9a3679 100644
          <Exec Command="%22$(DesktopMSBuild)%22 Runner.Service/Windows/RunnerService.csproj /p:Configuration=$(BUILDCONFIG) /p:PackageRuntime=$(PackageRuntime) /p:OutputPath=%22$(MSBuildProjectDirectory)/../_layout/bin%22" ConsoleToMSBuild="true" Condition="'$(PackageRuntime)' == 'win-x64' Or '$(PackageRuntime)' == 'win-x86' Or '$(PackageRuntime)' == 'win-arm64'" />
      </Target>
  
-# From upstream commit: 338d83a94146e6be9223fa6b23113516ec18d544
+# From upstream commit: 68ff57dbc4c836d50f46602a8a53301fb9513eb4
